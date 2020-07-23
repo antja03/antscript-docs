@@ -1,5 +1,5 @@
 # Module Manager
-**Explanation for every module manager method available in the ZarScript scripting language**
+**Explanation for every module manager method available in the OreoScript scripting language**
 Access the following methods by doing **moduleManager.** and then the following method's name.
 ## registerModule(moduleInstance)
 Registers a scripting module 
