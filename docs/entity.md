@@ -36,6 +36,10 @@ Returns the difference between the entities current tick position and last tick 
 Retismt je entities eye position 
 #### getMotion(id) ([Vector3d](./classes/Vector3d.md))
 Returns the entities motion
+#### getBoundingBox(id) ([BoundingBox](./classes/BoundingBox.md))
+Returns the entities bounding box
+#### getCollisionBoundingBox(id) ([BoundingBox](./classes/BoundingBox.md))
+Returns the entities collision box
 #### getDistanceFromPlayer(id) (double)
 Returns the entities distance from the local player
 #### isInvisible(id) (boolean)
