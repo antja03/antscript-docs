@@ -5,6 +5,7 @@ nav:
     - ItemStack: classes/ItemStack.md
     - Vector2f: classes/Vector2f.md
     - Vector3d: classes/Vector3d.md
+    - BoudingBox: classes/BoundingBox.md
   - Options: options.md
   - Events: events.md
   - Game: game.md
