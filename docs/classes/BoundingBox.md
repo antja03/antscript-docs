@@ -1,7 +1,7 @@
 ## Functions
-#### getMins() ([Vector3d](./classes/Vector3d.md))
+#### getMins() ([Vector3d](./Vector3d.md))
 Returns a vector containing the minimum for each axis
-#### getMaxs() ([Vector3d](./classes/Vector3d.md))
+#### getMaxs() ([Vector3d](./Vector3d.md))
 Returns a vector containing the maximum for each axis
 #### getMinX() (double)
 Returns minx
