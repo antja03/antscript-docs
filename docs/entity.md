@@ -26,6 +26,8 @@ Returns the entities displayname
 Returns the entities health
 #### getArmor(id) (int)
 Returns the entities armor
+#### getEyeHeight(id) (double)
+Returns the entities eye height
 #### getPosition(id) ([Vector3d](./classes/Vector3d.md))
 Returns the entities position
 #### getLastPosition(id) ([Vector3d](./classes/Vector3d.md))
