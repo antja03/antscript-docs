@@ -1,6 +1,6 @@
 
 # World
-**Explanation for every world method available in the ZarScript scripting language**
+**Explanation for every world method available in the OreoScript scripting language**
 Access the following methods by doing **world.** and then the following method's name.
 ## getWorldEntities()
 Updates all the entities and returns all the id's for them, you can't use any of the functions bellow before calling this function.
