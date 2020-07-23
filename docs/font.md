@@ -6,7 +6,7 @@ font.*
 Returns the id of the specified native font
 #### drawString(fontId, text, x, y, r, g, b, a) (void)
 Draws text on the screen
-#### drawStringWith(fontId, text, x, y, r, g, b, a) (void)
+#### drawStringWithShadow(fontId, text, x, y, r, g, b, a) (void)
 Draws text with a shadow on the screen
 #### drawCenteredString(fontId, text, x, y, r, g, b, a) (void)
 Draws centered text on the screen
