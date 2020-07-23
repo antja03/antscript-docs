@@ -1,0 +1,14 @@
+## Prefix
+render.*
+
+## Functions
+#### drawRectangle(x, y, width, height, r, g, b, a)
+Draws a rectangle on the screen
+#### drawRectangleBorder(x, y, width, height, r, g, b, a)
+Draws a hollow rectangle on the screen
+#### setupOverlayRendering() (void)
+Sets up overlay rendering
+#### setupCameraTransform() (void)
+Sets up camera transform
+#### worldToScreen(x, y, z) ([Vector3d](./classes/Vector3d.md))
+Converts a point on the world to a point on the screen

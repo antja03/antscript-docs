@@ -1,0 +1,23 @@
+site_name: OreoScript
+nav:
+  - Home: index.md
+  - Classes:
+    - ItemStack: classes/ItemStack.md
+    - Vector2f: classes/Vector2f.md
+    - Vector3d: classes/Vector3d.md
+  - Options: options.md
+  - Events: events.md
+  - Game: game.md
+  - Entity: entity.md
+  - Local Player: localplayer.md
+  - World: world.md
+  - Server: server.md
+  - Container: container.md
+  - Render: render.md
+  - Font: font.md
+theme: material
+markdown_extensions:
+  - codehilite
+  - toc
+  - fenced_code
+  - tables

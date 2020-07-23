@@ -1,0 +1,191 @@
+{
+	//ZarScript code snippets by anthonyj
+
+	//Render
+	"Render_DrawRect":{
+		"prefix": "render.drawRect(x, y, x1, y1, r, g, b a)",
+		"body": "render.drawRect(x, y, x1, y1, r, g, b a)",
+		"description": "Draws a colored rectangle on the screen"
+	},
+	"Render_DrawString":{
+		"prefix": "render.drawString(text, x, y, color)",
+		"body": "render.drawString(text, x, y, color)",
+		"description": "Draws a string on the screen"
+	},
+	"render_GetStringWidth":{
+		"prefix": "render.getStringWidth(text)",
+		"body": "render.getStringWidth(text)",
+		"description": "Returns the width of a string.",
+	},
+
+	//World
+	"World_SetTimer":{
+		"prefix": "world.setTimer(timerSpeed)",
+		"body": "world.setTimer(timerSpeed)",
+		"description": "Sets the world timer speed"
+	},
+	"World_GetTimer":{
+		"prefix": "world.getTimer()",
+		"body": "world.getTimer()",
+		"description": "Returns the world timer speed"
+	},
+	"World_GetBlock":{
+		"prefix": "world.getBlock(x, y, z)",
+		"body": "world.getBlock(x, y, z)",
+		"description": "Returns the name of the block at a position"
+	},
+
+	//Entity
+	"Entity_GetEntities":{
+		"prefix": "entity.getEntities()",
+		"body": "entity.getEntities()",
+		"description": "Returns an array of all loaded entities"
+	},
+	"Entity_GetHealth":{
+		"prefix": "entity.getHealth(id)",
+		"body": "entity.getHealth(id)",
+		"description": "Returns the health of an entity"
+	},
+	"Entity_GetHurtTime":{
+		"prefix": "entity.getHurtTime(id)",
+		"body": "entity.getHurtTime(id)",
+		"description": "Returns the hurt time of an entity"
+	},
+	"Entity_GetBoundingBox":{
+		"prefix": "entity.getBoundingBox(id)",
+		"body": "entity.getBoundingBox(id)",
+		"description": "Returns the bounding box of an entity [minX, minY, minZ, maxX, maxY, maxZ]"
+	},
+	"Entity_GetPosition":{
+		"prefix": "entity.getPosition(id)",
+		"body": "entity.getPosition(id)",
+		"description": "Returns the position of an entity [x, y, z]"
+	},
+	"Entity_GetAngles":{
+		"prefix": "entity.getAngles(id)",
+		"body": "entity.getAngles(id)",
+		"description": "Returns the rotations of an entity [yaw, pitch]"
+	},
+	"Entity_GetDisplayName":{
+		"prefix": "entity.getDisplayName(id)",
+		"body": "entity.getDisplayName(id)",
+		"description": "Returns the displayname of an entity"
+	},
+	"Entity_GetName":{
+		"prefix": "entity.getName(id)",
+		"body": "entity.getName(id)",
+		"description": "Returns the name of an entity"
+	},
+	"Entity_IsPlayer":{
+		"prefix": "entity.isPlayer(id)",
+		"body": "entity.isPlayer(id)",
+		"description": "Returns whether or not an entity is a player"
+	},
+	"Entity_GetHeldItemName":{
+		"prefix": "entity.getHeldItemName(id)",
+		"body": "entity.getHeldItemName(id)",
+		"description": "Returns the name of the item an entity is holding"
+	},
+
+	//Local player
+	"LocalPlayer_GetMoveInput":{
+		"prefix": "localPlayer.getMoveInput()",
+		"body": "localPlayer.getMoveInput()",
+		"description": "Returns movement input [moveForward, moveStrafing]"
+	},
+	"LocalPlayer_GetName":{
+		"prefix": "localPlayer.getName()",
+		"body": "localPlayer.getName()",
+		"description": "Returns the local players name"
+	},
+	"LocalPlayer_GetHWID":{
+		"prefix": "localPlayer.getHWID()",
+		"body": "localPlayer.getHWID()",
+		"description": "Returns the users hardware id"
+	},
+	"LocalPlayer_GetPosition":{
+		"prefix": "localPlayer.getPosition()",
+		"body": "localPlayer.getPosition()",
+		"description": "Returns the local players position [x, y, z]"
+	},
+	"LocalPlayer_SetPosition":{
+		"prefix": "localPlayer.setPosition(x, y, z)",
+		"body": "localPlayer.setPosition(x, y, z)",
+		"description": "Sets the local players position"
+	},
+	"LocalPlayer_GetAngles":{
+		"prefix": "localPlayer.getAngles()",
+		"body": "localPlayer.getAngles()",
+		"description": "Returns the local players rotations [yaw, pitch]"
+	},
+	"LocalPlayer_SetAngles":{
+		"prefix": "localPlayer.setAngles(yaw, pitch)",
+		"body": "localPlayer.setAngles(yaw, pitch)",
+		"description": "Sets the local players rotations"
+	},
+	"LocalPlayer_SetSpeed":{
+		"prefix": "localPlayer.setSpeed(speed)",
+		"body": "localPlayer.setSpeed(speed)",
+		"description": "Sets the local players speed"
+	},
+	"LocalPlayer_Jump": {
+		"prefix": "localPlayer.jump()",
+		"body": "localPlayer.jump()",
+		"description": "Makes the local player jump"
+	},
+	"LocalPlayer_IsOnGround": {
+		"prefix": "localPlayer.isOnGround()",
+		"body": "localPlayer.isOnGround()",
+		"description": "Returns whether or not the local player is on the ground"
+	},
+	"LocalPlayer_IsOnLadder": {
+		"prefix": "localPlayer.isOnLadder()",
+		"body": "localPlayer.isOnLadder()",
+		"description": "Returns whether or not the local player is on a ladder or vines"
+	},
+	"LocalPlayer_GetTicksExisted": {
+		"prefix": "localPlayer.getTicksExisted()",
+		"body": "localPlayer.getTicksExisted()",
+		"description": "Returns the amount of ticks the local player has existed"
+	},
+	"LocalPlayer_SendMessage": {
+		"prefix": "localPlayer.sendMessage(message)",
+		"body": "localPlayer.sendMessage(message)",
+		"description": "Sends a message as the local player"
+	},
+	"LocalPlayer_GetHurtTime": {
+		"prefix": "localPlayer.getHurtTime()",
+		"body": "localPlayer.getHurtTime()",
+		"description": "Returns the hurt time of the local player"
+	},
+	"LocalPlayer_GetKillAuraTarget": {
+		"prefix": "localPlayer.getKillAuraTarget()",
+		"body": "localPlayer.getKillAuraTarget()",
+		"description": "Returns the id of the kill aura target. -1 if no target."
+	},
+	"LocalPlayer_GetHotbarSlot": {
+		"prefix": "localPlayer.getHotbarSlot()",
+		"body": "localPlayer.getHotbarSlot()",
+		"description": "Gets the local players active hotbar slot"
+	},
+	"LocalPlayer_SetHotbarSlot": {
+		"prefix": "localPlayer.setHotbarSlot(slot)",
+		"body": "localPlayer.setHotbarSlot(slot)",
+		"description": "Sets the local players active hotbar slot"
+	},
+	"LocalPlayer_IsUsingItem": {
+		"prefix": "localPlayer.isUsingItem()",
+		"body": "localPlayer.isUsingItem()",
+		"description": "Returns whether or not the local player is using their held item"
+	},
+	"LocalPlayer_GetDistanceToEntity": {
+		"prefix": "localPlayer.getDistanceToEntity(id)",
+		"body": "localPlayer.getDistanceToEntity(id)",
+		"description": "Returns the distance between the local player and the provided entity"
+	},
+	"LocalPlayer_SendPacket": {
+		"prefix": "localPlayer.sendPacket(id, data)",
+		"body": "localPlayer.sendPacket(id, data)",
+		"description": "Sends a packet to the server"
+	},
+}
