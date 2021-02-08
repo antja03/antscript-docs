@@ -1,5 +1,6 @@
 ## Overview
-An extensive but easy to use JavaScript API for Minecraft 1.12.2. Currently only featured in AntWare made by antja03 (anthonyj) and scream. In order to take full advantage of AntScript, you should already have a decent understanding of Minecraft and its codebase. 
+
+An extensive but easy to use JavaScript API for Minecraft 1.12.2. Currently only featured in AntWare made by <font color="#1e3c96">**anthonyj**</font> and <font color="#1e3c96">**scream**</font>. In order to take full advantage of AntScript, you should already have a decent understanding of Minecraft and its codebase. 
 
 ## Script data
 In order for your script to be properly loaded, you need to have an object named data. It must include the name of your script, a brief description and, optionally, the name of your main function.
