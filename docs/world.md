@@ -3,4 +3,4 @@ world.*
 
 ## Functions
 #### getLivingEntities() ([ArrayList<int : entityId>](./data.md))
-Sets the game timer speed
+Returns an arraylist of all living entities within loaded chunks
