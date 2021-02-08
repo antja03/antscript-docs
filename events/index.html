@@ -495,7 +495,7 @@
 
 <h1 id="_4"></h1>
 <h4 id="eventmouseinput">EventMouseInput</h4>
-<p>Called whenever a mouse button is clicked or released</p>
+<p>Called whenever a mouse button is clicked or released in-game</p>
 <div class="codehilite"><pre><span></span><code><span class="nx">Pre</span><span class="o">/</span><span class="nx">Post</span><span class="o">:</span> <span class="nx">Pre</span>
 <span class="nx">Cancellable</span><span class="o">:</span> <span class="nx">Yes</span>
 
@@ -507,7 +507,7 @@
 <h1 id="_5"></h1>
 <h4 id="eventhudrender">EventHudRender</h4>
 <p>Called after the hud is rendered</p>
-<div class="codehilite"><pre><span></span><code><span class="nx">Pre</span><span class="o">/</span><span class="nx">Post</span><span class="o">:</span> <span class="nx">Post</span>
+<div class="codehilite"><pre><span></span><code><span class="nx">Pre</span><span class="o">/</span><span class="nx">Post</span><span class="o">:</span> <span class="nx">Both</span>
 <span class="nx">Cancellable</span><span class="o">:</span> <span class="nx">No</span>
 
 <span class="nx">Fields</span><span class="o">:</span>
@@ -515,6 +515,37 @@
 </code></pre></div>
 
 <h1 id="_6"></h1>
+<h4 id="eventscreenkeypress">EventScreenKeyPress</h4>
+<p>Called whenever a key is pressed in a gui</p>
+<div class="codehilite"><pre><span></span><code><span class="nx">Pre</span><span class="o">/</span><span class="nx">Post</span><span class="o">:</span> <span class="nx">Pre</span>
+<span class="nx">Cancellable</span><span class="o">:</span> <span class="nx">Yes</span>
+
+<span class="nx">Fields</span><span class="o">:</span>
+  <span class="o">-</span> <span class="kr">int</span><span class="o">:</span> <span class="nx">keyCode</span>
+</code></pre></div>
+
+<h1 id="_7"></h1>
+<h4 id="eventscreenmouseinput">EventScreenMouseInput</h4>
+<p>Called whenever a mouse button is clicked or released in a gui</p>
+<div class="codehilite"><pre><span></span><code><span class="nx">Pre</span><span class="o">/</span><span class="nx">Post</span><span class="o">:</span> <span class="nx">Pre</span>
+<span class="nx">Cancellable</span><span class="o">:</span> <span class="nx">Yes</span>
+
+<span class="nx">Fields</span><span class="o">:</span>
+  <span class="o">-</span> <span class="kr">int</span> <span class="o">:</span> <span class="nx">mouseState</span>
+  <span class="o">-</span> <span class="kr">int</span> <span class="o">:</span> <span class="nx">mouseButton</span>
+</code></pre></div>
+
+<h1 id="_8"></h1>
+<h4 id="eventscreenrender">EventScreenRender</h4>
+<p>Called when a gui is being rendered</p>
+<div class="codehilite"><pre><span></span><code><span class="nx">Pre</span><span class="o">/</span><span class="nx">Post</span><span class="o">:</span> <span class="nx">Both</span>
+<span class="nx">Cancellable</span><span class="o">:</span> <span class="nx">No</span>
+
+<span class="nx">Fields</span><span class="o">:</span>
+  <span class="o">-</span> <span class="nx">none</span>
+</code></pre></div>
+
+<h1 id="_9"></h1>
 <h4 id="eventworldrender">EventWorldRender</h4>
 <p>Called after entites are rendered</p>
 <div class="codehilite"><pre><span></span><code><span class="nx">Pre</span><span class="o">/</span><span class="nx">Post</span><span class="o">:</span> <span class="nx">Post</span>
