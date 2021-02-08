@@ -49,7 +49,7 @@ Fields:
 ```
 # 
 #### EventMouseInput
-Called whenever a mouse button is clicked or released
+Called whenever a mouse button is clicked or released in-game
 ```javascript
 Pre/Post: Pre
 Cancellable: Yes
@@ -62,7 +62,38 @@ Fields:
 #### EventHudRender
 Called after the hud is rendered
 ```javascript
-Pre/Post: Post
+Pre/Post: Both
+Cancellable: No
+
+Fields:
+  - none
+```
+# 
+#### EventScreenKeyPress
+Called whenever a key is pressed in a gui
+```javascript
+Pre/Post: Pre
+Cancellable: Yes
+
+Fields:
+  - int: keyCode
+```
+# 
+#### EventScreenMouseInput
+Called whenever a mouse button is clicked or released in a gui
+```javascript
+Pre/Post: Pre
+Cancellable: Yes
+
+Fields:
+  - int : mouseState
+  - int : mouseButton
+```
+# 
+#### EventScreenRender
+Called when a gui is being rendered
+```javascript
+Pre/Post: Both
 Cancellable: No
 
 Fields:
