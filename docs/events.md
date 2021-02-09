@@ -9,6 +9,7 @@ Methods:
 ```
 # 
 #### EventPlayerUpdate
+
 Called before and after the local player updates.
 ```javascript
 Pre/Post: Both
@@ -27,6 +28,15 @@ Fields:
   - boolean : sprinting
   - boolean : ground
 ```
+
+<font color="#1e3c96">**Example**</font>
+
+```javascript
+function onLocalPlayerUpdate(event) {
+  game.printToChat("this is an example")
+}
+```
+
 # 
 #### EventLivingDeath
 Called whenever a living entity dies.
@@ -37,6 +47,15 @@ Cancellable: No
 Fields:
   - int : entityId
 ```
+
+<font color="#1e3c96">**Example**</font>
+
+```javascript
+function onEntityDeath(event) {
+  game.printToChat("this is an example")
+}
+```
+
 # 
 #### EventKeyPress
 Called whenever a key is pressed in-game
@@ -47,6 +66,15 @@ Cancellable: Yes
 Fields:
   - int: keyCode
 ```
+
+<font color="#1e3c96">**Example**</font>
+
+```javascript
+function onIngameKeyPress(event) {
+  game.printToChat("this is an example")
+}
+```
+
 # 
 #### EventMouseInput
 Called whenever a mouse button is clicked or released in-game
@@ -58,6 +86,15 @@ Fields:
   - int : mouseState
   - int : mouseButton
 ```
+
+<font color="#1e3c96">**Example**</font>
+
+```javascript
+function onIngameMouseInput(event) {
+  game.printToChat("this is an example")
+}
+```
+
 # 
 #### EventHudRender
 Called after the hud is rendered
@@ -68,6 +105,15 @@ Cancellable: No
 Fields:
   - none
 ```
+
+<font color="#1e3c96">**Example**</font>
+
+```javascript
+function onIngameRender(event) {
+  game.printToChat("this is an example")
+}
+```
+
 # 
 #### EventScreenKeyPress
 Called whenever a key is pressed in a gui
@@ -78,6 +124,15 @@ Cancellable: Yes
 Fields:
   - int: keyCode
 ```
+
+<font color="#1e3c96">**Example**</font>
+
+```javascript
+function onScreenKeyPress(event) {
+  game.printToChat("this is an example")
+}
+```
+
 # 
 #### EventScreenMouseInput
 Called whenever a mouse button is clicked or released in a gui
@@ -89,6 +144,15 @@ Fields:
   - int : mouseState
   - int : mouseButton
 ```
+
+<font color="#1e3c96">**Example**</font>
+
+```javascript
+function onScreenMouseInput(event) {
+  game.printToChat("this is an example")
+}
+```
+
 # 
 #### EventScreenRender
 Called when a gui is being rendered
@@ -99,6 +163,15 @@ Cancellable: No
 Fields:
   - none
 ```
+
+<font color="#1e3c96">**Example**</font>
+
+```javascript
+function onScreenRender(event) {
+  game.printToChat("this is an example")
+}
+```
+
 #
 #### EventWorldRender
 Called after entites are rendered
@@ -108,4 +181,12 @@ Cancellable: No
 
 Fields:
   - none
+```
+
+<font color="#1e3c96">**Example**</font>
+
+```javascript
+function onWorldRender(event) {
+  game.printToChat("this is an example")
+}
 ```
