@@ -16,6 +16,10 @@ Sets the players position
 Returns the local players motion
 #### getFallDistance() (float)
 Returns the local players falldistance
+#### getHealth() (float)
+Returns the local players health
+#### getInventorySize() (int)
+Return the local players inventory size
 #### setMotion(x, y, z) (void)
 Sets the local players motion
 #### getRotations() ([Vector2f](./classes/Vector2f.md))
