@@ -14,6 +14,8 @@ Returns the local players eye position
 Sets the players position
 #### getMotion() ([Vector3d](./classes/Vector3d.md))
 Returns the local players motion
+#### getFallDistance() (float)
+Returns the local players falldistance
 #### setMotion(x, y, z) (void)
 Sets the local players motion
 #### getRotations() ([Vector2f](./classes/Vector2f.md))
